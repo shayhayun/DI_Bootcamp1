@@ -1,0 +1,47 @@
+
+ul{
+    position: fixed;
+    text-align: right;
+    right:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+li{
+    display:inline-block;
+    margin-right: 10px;
+    color:aliceblue
+}
+
+.footer{
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Bebas Neue', cursive;
+    color:orangered;
+    font-size: 45px;
+    line-height: 1.0;
+}
+
+.para{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(38, 16, 236);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+body{
+background-image: url('Thor2.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
