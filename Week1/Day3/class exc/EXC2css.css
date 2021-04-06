@@ -1,0 +1,47 @@
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+    justify-content:space-between;
+    align-items:flex-end;
+    text-align:center;
+    margin:10px;
+        
+}
+
+.border{
+    border: 2px solid red;
+
+}
+
+.flex-container>div{
+    height:20vh;
+    /* text-align:center; */
+    margin-top: 5%; 
+    align-items:center;
+
+}
+
+  .box1{
+
+    background-color: aquamarine;
+    width: 100%;
+    margin:10px;
+  }
+
+  .box2{
+
+    background-color: aquamarine;
+    width: 30% !important;
+    align-self: flex-end;
+    margin:10px;
+    /* justify-content:flex-end; */
+  }
+
+  .box3{
+
+background-color: aquamarine;
+width: 100%;
+margin:10px;
+   
+  }
